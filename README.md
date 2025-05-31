@@ -1,16 +1,29 @@
-## Hi there 👋
+class MohdRaiyan:
+    def __init__(self):
+        self.name = "Mohd Raiyan"
+        self.location = "India"
+        self.profession = "Aspiring Data Data Analysis & Tech Entrepreneur"
+        self.skills = ["Python", "SQL", "Data Analysis", "Problem Solving", "Business Thinking"]
+        self.focus = [
+            "Building a SaaS-based School Management System",
+            "Learning Data Analysis & SQL",
+            "Creating data-driven solutions"
+        ]
+        self.values = ["Creativity", "Growth", "Smart Risk-Taking", "Innovation"]
+    
+    def say_hello(self):
+        print(f"Hi, I'm {self.name} — passionate about tech, business, and turning ideas into reality!")
 
-<!--
-**mohdraiyan380/mohdraiyan380** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    def current_mission(self):
+        return "Helping schools go digital with a smart SaaS platform"
 
-Here are some ideas to get you started:
+    def future_goals(self):
+        return [
+            "Work as a Data Analyst",
+            "Launch impactful tech products",
+            "Keep learning & growing"
+        ]
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+# Create an instance and introduce
+raiyan = MohdRaiyan()
+raiyan.say_hello()
